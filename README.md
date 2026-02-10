@@ -114,7 +114,8 @@ train_model(ai_brain, X_train_tensor, y_train_tensor, criterion, optimizer)
 with torch.no_grad():
     test_loss = criterion(ai_brain(X_test_tensor), y_test_tensor)
     print(f"Test Loss: {test_loss.item():.6f}")
-
+print(" NAME: KIRUTHIGA.B")
+print("REG.NO: 212224040160")
 # Plot Loss
 loss_df = pd.DataFrame(ai_brain.history)
 loss_df.plot()
@@ -130,8 +131,6 @@ X_new_scaled = torch.tensor(scaler.transform(X_new), dtype=torch.float32)
 prediction = ai_brain(X_new_scaled).item()
 print(f"Predicted Spending Score: {prediction}")
 
-
-
 ```
 ## Dataset Information
 
@@ -140,12 +139,14 @@ print(f"Predicted Spending Score: {prediction}")
 
 ## OUTPUT
 
-<img width="693" height="496" alt="image" src="https://github.com/user-attachments/assets/f876eb9f-1cfc-497b-90d7-5c062e29cb1d" />
+<img width="386" height="528" alt="image" src="https://github.com/user-attachments/assets/5cdaa431-fd5d-4326-9fa4-04b534015dba" />
+
 
 
 ### Training Loss Vs Iteration Plot
 
-<img width="801" height="569" alt="image" src="https://github.com/user-attachments/assets/59fa4f35-53d3-4c44-bfb5-bfae22c3ddbc" />
+<img width="771" height="605" alt="image" src="https://github.com/user-attachments/assets/e6fe77f0-81bb-4d54-8f6d-d5a41fc36538" />
+
 
 
 ### New Sample Data Prediction
