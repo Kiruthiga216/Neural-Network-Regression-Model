@@ -10,7 +10,9 @@ It consists of an input layer with 1 neuron, two hidden layers with 4 neurons ea
 
 ## Neural Network Model
 
-<img width="899" height="363" alt="image" src="https://github.com/user-attachments/assets/b31f7100-3068-4a63-a05c-e2a467275fa0" />
+
+<img width="1658" height="868" alt="image" src="https://github.com/user-attachments/assets/d319b303-4eb0-4d53-b6ce-369b56a3b240" />
+
 
 
 ## DESIGN STEPS
